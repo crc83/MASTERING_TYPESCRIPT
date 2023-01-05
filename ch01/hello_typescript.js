@@ -1,0 +1,21 @@
+"use strict";
+var myBoolean = true;
+var myNumber = 1234;
+var myStringArray = ["first", "second", "third"];
+var version = "es2016";
+myBoolean = myNumber === 456;
+myStringArray = [myNumber.toString(), "5678"];
+myNumber = myStringArray.length;
+console.log("Hello ".concat(version, " Typescript"));
+console.log("myBoolean=".concat(myBoolean));
+console.log("myStringArray=".concat(myStringArray));
+console.log("myNumber=".concat(myNumber));
+var inferredString = "this is string";
+var inferredNumber = 42;
+// inferredNumber = inferredString;
+console.log("inferredString=".concat(inferredString));
+console.log("inferredNumber=".concat(inferredNumber));
+var nameIdObject = { name: "myName", id: 1, print: function () { } };
+nameIdObject = { id: 2, name: "anotherName", print: function () { } };
+// nameIdObject = {id: 2, name: "thirdName"};
+//# sourceMappingURL=hello_typescript.js.map
