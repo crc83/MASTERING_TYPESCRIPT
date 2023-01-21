@@ -17,3 +17,14 @@ console.log(`inferredNumber=${inferredNumber}`);
 var nameIdObject = { name: "myName", id: 1, print() {}};
 nameIdObject = {id: 2, name: "anotherName", print() {}};
 // nameIdObject = {id: 2, name: "thirdName"};
+let index : number = 0;
+if (index==0) {
+  let index : number = 3;
+  console.log(`index = ${index}`);
+}
+console.log(`index = ${index}`);
+enum DoorState {
+  OPEN,
+  CLOSED
+}
+console.log(`doorState ${DoorState.OPEN} ${DoorState.OPEN.toString()}`);

@@ -12,7 +12,7 @@
         "<node_internals>/**"
       ],
       "preLaunchTask": "tsc: build - tsconfig.json",
-      "program": "${workspaceFolder}/ch01/hello_typescript.ts",
+      "program": "node",
       "outFiles": [
         "${workspaceFolder}/**/*.js"
       ]

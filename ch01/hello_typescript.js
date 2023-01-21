@@ -18,4 +18,16 @@ console.log("inferredNumber=".concat(inferredNumber));
 var nameIdObject = { name: "myName", id: 1, print: function () { } };
 nameIdObject = { id: 2, name: "anotherName", print: function () { } };
 // nameIdObject = {id: 2, name: "thirdName"};
+var index = 0;
+if (index == 0) {
+    var index_1 = 3;
+    console.log("index = ".concat(index_1));
+}
+console.log("index = ".concat(index));
+var DoorState;
+(function (DoorState) {
+    DoorState[DoorState["OPEN"] = 0] = "OPEN";
+    DoorState[DoorState["CLOSED"] = 1] = "CLOSED";
+})(DoorState || (DoorState = {}));
+console.log("doorState ".concat(DoorState.OPEN, " ").concat(DoorState.OPEN.toString()));
 //# sourceMappingURL=hello_typescript.js.map
